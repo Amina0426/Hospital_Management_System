@@ -139,18 +139,38 @@ with your local MySQL username, password, and database configuration.
 
 Run:
 
+In pom.xml, find the `text<configuration>` tag
+
 ```text
-com.hms.App
+<configuration>
+      <mainClass>com.hms.App</mainClass>
+</configuration>
+```
+
+Run:
+
+```text
+mvn clean compile
+mvn exec:java
 ```
 
 The application opens a role-selection menu and provides separate workflows for administrators, doctors, and receptionists.
 
 ### Swing Version
 
+In pom.xml, find the `text<configuration>` tag
+
+```text
+<configuration>
+      <mainClass>com.hms.AppSwing</mainClass>
+</configuration>
+```
+
 Run:
 
 ```text
-com.hms.AppSwing
+mvn clean compile
+mvn exec:java
 ```
 
 This launches the graphical desktop interface.

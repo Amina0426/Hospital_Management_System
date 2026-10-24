@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DBConnection",
+      "request": "launch",
+      "mainClass": "com.hms.DBConnection",
+      "projectName": "hms_project_2216ab6b"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.hms.App",
+      "projectName": "hms_project_2216ab6b"
+    },
+    {
+      "type": "java",
+      "name": "Run App",
+      "request": "launch",
+      "mainClass": "com.hms.App",
+      "projectName": "hms_project"
+    }
+  ]
+}
